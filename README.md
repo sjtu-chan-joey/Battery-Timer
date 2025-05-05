@@ -1,9 +1,12 @@
 # Battery-Timer
 ## A Foundation Model for Battery Discharge Capacity Degradation Forecasting
 
+![image](https://github.com/sjtu-chan-joey/Battery-Timer/blob/main/Figures/lora.png)
+
 Battery-Timer is a domain-adapted time series foundation model tailored for lithium-ion battery capacity degradation prediction. Built upon the Transformer-based Timer architecture developed by Tsinghua University, Battery-Timer is fine-tuned using approximately 10GB of publicly available battery degradation datasets to encourage a degradation-aware representation learning. This enables the model to generalize well across varying battery chemistries, operational scenarios, and degradation profiles. Extensive validation on the in-house CycleLife-SJTUIE dataset demonstrates that Battery-Timer not only surpasses the performance of its untuned counterpart but also exhibits strong zero-shot learning (ZSL) capabilities across both constant current (CC) and constant current-constant voltage (CCCV) charging conditions. Despite its large parameter size, Battery-Timer serves as a powerful teacher model in the proposed knowledge distillation framework, significantly improving the generalization ability of lightweight expert models while preserving low computational costs.
 
 ## Dataset
+![image](https://github.com/sjtu-chan-joey/Battery-Timer/blob/main/Figures/Dataset.png)
 ### SJTUIE-cyclelife
 📦 CycleLife-SJTUIE Dataset
 
