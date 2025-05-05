@@ -8,7 +8,7 @@ Battery-Timer is a domain-adapted time series foundation model tailored for lith
 
 ### Open-source battery capacity degradation dataset for fine-tuning
 
-```python
+```
 @article{severson2019data,
   title={Data-driven prediction of battery cycle life before capacity degradation},
   author={Severson, Kristen A and Attia, Peter M and Jin, Norman and Perkins, Nicholas and Jiang, Benben and Yang, Zi and Chen, Michael H and Aykol, Muratahan and Herring, Patrick K and Fraggedakis, Dimitrios and others},
