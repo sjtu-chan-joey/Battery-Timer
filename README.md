@@ -1,5 +1,5 @@
-# Battery-Timer
-## A Foundation Model for Battery Discharge Capacity Degradation Forecasting
+# Battery-Timer: A Foundation Model for Battery Discharge Capacity Degradation Forecasting
+## Overview
 
 ![image](https://github.com/sjtu-chan-joey/Battery-Timer/blob/main/Figures/lora.png)
 
