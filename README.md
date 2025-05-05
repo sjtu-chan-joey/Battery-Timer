@@ -5,6 +5,60 @@ Battery-Timer is a domain-adapted time series foundation model tailored for lith
 
 ## Dataset
 ### SJTUIE-cyclelife
+📦 CycleLife-SJTUIE Dataset
+
+The **CycleLife-SJTUIE** dataset contains real-world battery degradation data collected from eight lithium-ion cells manufactured by **Gotion High Tech Co., Ltd.** This dataset is designed to support battery health prediction research, especially under different charging strategies and temperature conditions.
+
+---
+
+ 🔋 Battery Specifications
+
+| Attribute         | Value        |
+|------------------|--------------|
+| Product Name      | IFR32135     |
+| Rated Capacity    | 13Ah         |
+| Normal Voltage    | 3.2V         |
+| Shape             | Cylindrical  |
+| Cathode           | LiFePO₄      |
+| Anode             | Graphite     |
+| Voltage Range     | 2.0V – 3.65V |
+
+---
+
+ 🧪 Experimental Setup
+
+- Tests conducted **indoors** without active temperature control.
+- Each cell mounted in a **Neware A708-4B-J-30A** fixture.
+- Charging/discharging handled by **Neware CTE-4008D-5V30A** battery tester.
+- Data/control managed by **Neware CT-ZWJ-4 ST-1U** unit.
+- **Surface temperature** monitored using thermocouples + **Jinko JK5000-24**.
+- **Ambient temperature** recorded via **Huahanwei TH42W-EX** thermometer.
+
+---
+
+⚙️ Charging Profiles
+
+- **Cells #1–4**: Constant Current (**CC**) charging  
+- **Cells #5–8**: Constant Current + Constant Voltage (**CCCV**) charging
+
+---
+
+🔁 Test Cycle Procedure
+
+Each battery cell undergoes repeated degradation cycles until its capacity falls below 80% of its rated capacity. The cycle is as follows:
+
+1. Discharge the cell completely.
+2. Repeat:
+    - **CC profile**: Charge at 1C (13A) until voltage reaches **3.9V**.
+    - **CCCV profile**: Charge at 1C (13A) to **3.65V**, then hold at 3.65V until current drops below **0.65A (0.05C)**.
+    - Rest for **30 minutes**.
+    - Discharge at 1C (13A) until voltage drops to **2.0V**.
+    - Rest for **30 minutes**.
+3. Stop when capacity / rated capacity < 0.8.
+
+---
+
+Please cite the dataset and associated papers when using this data in your research.
 
 ### Open-source battery capacity degradation dataset for fine-tuning
 
