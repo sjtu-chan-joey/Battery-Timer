@@ -8,6 +8,47 @@ Battery-Timer is a domain-adapted time series foundation model tailored for lith
 
 ### Open-source battery capacity degradation dataset for fine-tuning
 
+```python
+@article{severson2019data,
+  title={Data-driven prediction of battery cycle life before capacity degradation},
+  author={Severson, Kristen A and Attia, Peter M and Jin, Norman and Perkins, Nicholas and Jiang, Benben and Yang, Zi and Chen, Michael H and Aykol, Muratahan and Herring, Patrick K and Fraggedakis, Dimitrios and others},
+  journal={Nature Energy},
+  volume={4},
+  number={5},
+  pages={383--391},
+  year={2019},
+  publisher={Nature Publishing Group UK London}
+}
+
+@misc{calce_battery_data,
+  title        = {CALCE Battery Data Sets},
+  author       = {Center for Advanced Life Cycle Engineering (CALCE)},
+  year         = {2024},
+  howpublished = {\url{https://calce.umd.edu/battery-data}},
+  note         = {Accessed: 2025-04-29}
+}
+
+@article{preger2020degradation,
+  title={Degradation of commercial lithium-ion cells as a function of chemistry and cycling conditions},
+  author={Preger, Yuliya and Barkholtz, Heather M and Fresquez, Armando and Campbell, Daniel L and Juba, Benjamin W and Rom{\`a}n-Kustas, Jessica and Ferreira, Summer R and Chalamala, Babu},
+  journal={Journal of The Electrochemical Society},
+  volume={167},
+  number={12},
+  pages={120532},
+  year={2020},
+  publisher={IOP Publishing}
+}
+
+@article{wang2023large,
+  title={Large-scale field data-based battery aging prediction driven by statistical features and machine learning},
+  author={Wang, Qiushi and Wang, Zhenpo and Liu, Peng and Zhang, Lei and Sauer, Dirk Uwe and Li, Weihan},
+  journal={Cell Reports Physical Science},
+  volume={4},
+  number={12},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 ## Quick start
 
 ```python
