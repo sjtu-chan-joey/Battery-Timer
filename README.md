@@ -117,6 +117,11 @@ quick_start_validation.ipynb
 ## Citation
 If you find this repo helpful, please cite our paper.
 
+```
+TeckRxiv In Moderation 
+
+```
+
 ## Contributors
 If you have any questions or want to use the code, feel free to contact:
 
