@@ -119,7 +119,6 @@ If you find this repo helpful, please cite our paper.
 
 ```
 TeckRxiv In Moderation 
-
 ```
 
 ## Contributors
