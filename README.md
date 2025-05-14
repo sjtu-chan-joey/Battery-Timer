@@ -124,7 +124,6 @@ If you find this repo helpful, please cite our paper.
   journal={arXiv preprint arXiv:2505.08151},
   year={2025}
 }
-
 ```
 
 ## Contributors
