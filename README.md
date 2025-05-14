@@ -118,7 +118,13 @@ quick_start_validation.ipynb
 If you find this repo helpful, please cite our paper.
 
 ```
-TeckRxiv In Moderation 
+@article{Chan2025battery,
+  title={Foundation Models Knowledge Distillation For Battery Capacity Degradation Forecast},
+  author={Joey Chan, Zhen Chen and Ershun Pan},
+  journal={arXiv preprint arXiv:2505.08151},
+  year={2025}
+}
+
 ```
 
 ## Contributors
