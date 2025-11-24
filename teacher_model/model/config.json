@@ -1,0 +1,27 @@
+{
+  "_name_or_path": "checkpoints/timer_base",
+  "architectures": [
+    "TimerForPrediction"
+  ],
+  "attention_dropout": 0.0,
+  "auto_map": {
+    "AutoConfig": "configuration_timer.TimerConfig",
+    "AutoModelForCausalLM": "modeling_timer.TimerForPrediction"
+  },
+  "hidden_act": "silu",
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "input_token_len": 96,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 10000,
+  "model_type": "timer",
+  "num_attention_heads": 8,
+  "num_hidden_layers": 8,
+  "output_token_lens": [
+    96
+  ],
+  "rope_theta": 10000,
+  "torch_dtype": "float32",
+  "transformers_version": "4.40.1",
+  "use_cache": true
+}
