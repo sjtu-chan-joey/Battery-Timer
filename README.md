@@ -127,6 +127,18 @@ If you find this repo helpful, please cite our paper.
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2505.08151}, 
 }
+
+@article{CHAN2026112139,
+title = {Foundation models knowledge distillation for battery capacity degradation forecast},
+journal = {Reliability Engineering & System Safety},
+volume = {270},
+pages = {112139},
+year = {2026},
+issn = {0951-8320},
+doi = {https://doi.org/10.1016/j.ress.2025.112139},
+url = {https://www.sciencedirect.com/science/article/pii/S0951832025013389},
+author = {Joey Chan and Zhen Chen and Ershun Pan},
+}
 ```
 
 ## Contributors
